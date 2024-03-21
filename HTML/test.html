@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        body{
+            display: block;
+            color: darkblue;
+            margin: 8px;
+        }
+        form{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 1rem;
+            color: crimson;
+        }
+        input{
+            padding: 0.25rem;
+        }
+        li{
+            font-size: 18px;
+            color: darkmagenta;
+        }
+        a:link{
+            color: darkmagenta;
+            text-decoration: none;
+        }
+        a:hover{
+            color: hotpink;
+        }
+        .myPasswordField{
+           border: 0.25px solid black;
+           background: lightblue;
+        }
+        @media (max-width: 500px) {
+            input{
+                width: 100%;
+                display: block;
+            }
+        }
+        @media (min-width: 500px){
+            input{
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <form action="">
+            <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Username" required autofocus/>
+            <label>
+                Password
+                <input type="password" name="password"  placeholder="Password" class="myPasswordField">
+            </label>
+            <label for="date">Today's date</label>
+            <input type="date" name="date" id="date">
+        <button type="submit">Luo tunnus</button>
+
+    </form>
+        <nav>
+            <ul>
+                <li><a href = "#uutiset">uutiset</a></li>
+                <li><a href="#urheilu">urheilu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Testisivu</h1>
+        <section id="uutiset">
+            <h2>UUTISET</h2>
+            <article>
+                <h2>uutisnenenfjs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad facilis eaque amet odio officia molestiae neque alias unde libero nemo eum, dolore, odit animi, pariatur vel voluptatem impedit fugiat atque!</p>
+                    <aside>
+                    <p>lisätietoa</p>
+                </aside>
+            </article>
+        </section id ="urheilu">
+            <h2>UREHILU</h2>
+            <table>
+                <tr>
+                    <th>Urheilija</th>
+                    <th>Aika</th>
+                </tr>
+                <tr>
+                    <td>fessffsefs</td>
+                    <td>243234q</td>
+                </tr>
+                <tr>
+                    <td>fessffsefs</td>
+                    <td>243234q</td>
+                </tr>
+                <tr>
+                    <td colspan="2">jhksdgdfgdggdfdg.</td>
+                </tr>
+            </table>
+
+        <section>
+
+        </section>
+    </div>
+</body>
+</html>

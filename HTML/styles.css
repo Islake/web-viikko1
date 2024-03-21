@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px; 
+}
+
+a {
+    text-decoration: none;
+    color: #00c3f9;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(255, 6, 222);
+}
+
+.image img {
+    border: 2px solid #00ff44;
+    border-radius: 10px;
+
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:nth-child(even) {
+    background-color: #beffc2;
+
+}
+
+ul {
+    list-style-type: none;
+}
